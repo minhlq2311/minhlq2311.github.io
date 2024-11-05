@@ -1,7 +1,0 @@
-gameController.js
-Game.js
-
-gameService.js
-gameRouter.js
-index.js
-gameService.js
