@@ -20,7 +20,7 @@ const server = http.createServer(app);
 const PORT = 5505;
 
 // Serve static files from the 'client' directory
-app.use(express.static(path.join(__dirname, '../client')));
+app.use(express.static(path.join(__dirname, '../index.html')));
 
 // Use routes for various functionalities
 app.use('/game', gameRoutes);
